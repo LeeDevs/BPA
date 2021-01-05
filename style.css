@@ -57,3 +57,25 @@ li a:hover:not(.active) {
     color: white;
 }
     
+<! button n' div class>
+.button {
+        transition-duration: 0.4s;
+        border: 2px solid #d10009;
+        padding: 15px 32px;
+        background-color: white;
+        text-align: center;
+        font-family: georgia;
+        border-radius: 12px;
+    }
+    
+    .button:hover {
+        background-color: #d10009;
+        color: white;
+    }
+    
+    .normal {
+        margin-left: 25%;
+        padding: 1px 16px;
+        height: 1000;
+        
+    }
