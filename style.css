@@ -10,14 +10,14 @@ h1 {text-align: center;
 h2 {
     text-align: center;
     font-family: georga;
-    font-size: 150%;
+    font-size: 200%;
     color: #ff4055;
 }
 
 h3 {
     text-align: center;
     font-family: georgia;
-    font-size: 120%;
+    font-size: 150%;
     color: #ff808a;
 }
 
@@ -48,7 +48,7 @@ li a {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #ae0700;
     color: white;
 }
 
