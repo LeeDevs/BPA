@@ -78,4 +78,21 @@ li a:hover:not(.active) {
     padding: 1px 16px;
     height: 10000px;
 }
-        
+       
+#InfoBox {
+    width: ;
+    padding: ;
+    text-align: center;
+    background-color ;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+#InfoBox2 {
+    width: ;
+    padding: ;
+    text-align: center;
+    background-color ;
+    margin-top: 20px;
+    border-radius: 12px;
+}
