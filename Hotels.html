@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hotels</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -19,10 +20,10 @@
 	<table>
 	  <tr>
 	    <th>
-	      <button class="button">location1</button>
+	      <button class="button" onclick="MyFunction()">location1</button>
 	    </th>
 	    <th>
-	      <button class="button">location2</button>
+	      <button class="button" onclick="MyFunction2()">location2</button>
 	    </th>
 	   </tr>
 	</table>
@@ -37,8 +38,8 @@
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myDIV");
-  var y = document.getElementById("myDIV2");
+  var x = document.getElementById("InfoBox");
+  var y = document.getElementById("InfoBox2");
   if (x.style.display === "none") {
     x.style.display = "block";
     if (y.style.display === "block")
@@ -51,8 +52,8 @@ function myFunction() {
 
 <script> 
 function myFunction2() {
-  var x = document.getElementById("myDIV");
-  var y = document.getElementById("myDIV2");
+  var x = document.getElementById("InfoBox");
+  var y = document.getElementById("InfoBox2");
   if (y.style.display === "none") {
     y.style.display = "block";
     if (x.style.display === "block")
