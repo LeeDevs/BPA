@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hotels</title>
-  <link rel="stylesheet" href="style.css">
+<title>Hotels</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 </head>
 
-<body>
+<body onload="myFunction(); myFunction2();">
 
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a class="active" href="hotels.html">Hotels</a></li>
-    <li><a href="page3">Page3</a></li>
-    <li><a href="page4">Page4</a></li>
-  </ul>
-  
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a class="active" href="hotels.html">Hotels</a></li>
+<li><a href="page3">Page3</a></li>
+<li><a href="workCited.html">Works Cited and Other Recorces</a></li>
+</ul>
 
-    <div class="normal">
-	<table>
-	  <tr>
-	    <th>
-	      <button class="button" onclick="MyFunction()">location1</button>
-	    </th>
-	    <th>
-	      <button class="button" onclick="MyFunction2()">location2</button>
-	    </th>
-	   </tr>
-	</table>
-	    
-	    <div id="InfoBox">
-            <p>(text here)</p>
-        </div id="InfoBox>
+<div class="normal">
 
-        <div id="infoBox2">
-            <p>(text2 here)</p>
-        </div id="InfoBox2">
+<h1>Hotels</h1>
+
+<button class="button" onclick="myFunction()">Try it</button>
+<button class="button" onclick="myFunction2()">Try it2</button>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+<div id="myDIV2">
+
+<h3 class="div">Stuff</h3>
+<p class="div"> testing text</p>
+
+</div>
+
+<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
 
 <script>
 function myFunction() {
-  var x = document.getElementById("InfoBox");
-  var y = document.getElementById("InfoBox2");
+  var x = document.getElementById("myDIV");
+  var y = document.getElementById("myDIV2");
   if (x.style.display === "none") {
     x.style.display = "block";
-    if (y.style.display === "block")
-      y.style.display = "none";
+    y.style.display = "none";
   } else {
     x.style.display = "none";
   }
 }
 </script>
 
-<script> 
+<script>
 function myFunction2() {
-  var x = document.getElementById("InfoBox");
-  var y = document.getElementById("InfoBox2");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-    if (x.style.display === "block")
-      x.style.display = "none";
-  } else {
+  var x = document.getElementById("myDIV2");
+  var y = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
     y.style.display = "none";
+  } else {
+    x.style.display = "none";
   }
 }
 </script>
-	
-     </div class="normal">
+
+</div>
+
 </body>
 </html>
