@@ -1,6 +1,20 @@
 body {
     background-color: #ffffff;
 }
+
+p.div {
+  font-family: georgia;
+  font-size: 100%;
+  color: white;
+}
+
+h3.div {
+  font-family: georgia;
+  font-size: 150%;
+  color: white;
+  text-align: center;
+}
+
 h1 {text-align: center;
     font-family: georgia;
     font-size: 300%;
@@ -24,7 +38,7 @@ h3 {
 p {
     font-family: georgia;
     font-size: 100%; 
-    color: #0e00cb;
+    color: #09007d;
 }
 
 
@@ -59,19 +73,19 @@ li a:hover:not(.active) {
     
 
 .button {
-        transition-duration: 0.4s;
-        border: 2px solid #d10009;
-        padding: 15px 32px;
-        background-color: white;
-        text-align: center;
-        font-family: georgia;
-        border-radius: 12px;
-    }
+    transition-duration: 0.4s;
+    border: 2px solid #d10009;
+    padding: 15px 32px;
+    background-color: white;
+    text-align: center;
+    font-family: georgia;
+    border-radius: 12px;
+}
     
-    .button:hover {
-        background-color: #d10009;
-        color: white;
-    }
+.button:hover {
+    background-color: #d10009;
+    color: white;
+}
     
 .normal {
     margin-left: 25%;
@@ -79,20 +93,22 @@ li a:hover:not(.active) {
     height: 10000px;
 }
        
-#InfoBox {
-    width: ;
-    padding: ;
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
     text-align: center;
-    background-color ;
+    background-color: #ff808a;
+    color: white;
     margin-top: 20px;
     border-radius: 12px;
 }
 
-#InfoBox2 {
-    width: ;
-    padding: ;
+#myDIV2 {
+    width: 100%;
+    padding: 50px 0;
     text-align: center;
-    background-color ;
+    background-color: #ff808a;
+    color: white;
     margin-top: 20px;
     border-radius: 12px;
 }
