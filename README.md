@@ -25,7 +25,7 @@ The buttons work because of the following settings in style.css:
 
 -#myDIV {
 
-=#myDIV2 {
+-#myDIV2 {
 
 -p.div {
 
@@ -33,9 +33,11 @@ The buttons work because of the following settings in style.css:
 
 
 the .button and .button:hover deal with button appearence
-the rest is for the divs that appear/disapear with the button click. 
+the rest is for the divs that appear/disapear with the button click. The class p.div and h3.div are so the text in the menus that pop up can have different setting in the style sheet than the normal settings. do <p class="div"> </p> and <h3 class="div"> </h3> when writing in the hotel divs
 
-(to be continued, the bell rang)
+
+
+
 
 
 
