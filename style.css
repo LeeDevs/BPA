@@ -1,4 +1,4 @@
-    body {
+body {
     background-color: #ffffff;
 }
 
@@ -11,6 +11,13 @@ p.div {
 h3.div {
   font-family: georgia;
   font-size: 150%;
+  color: #d10009;
+  text-align: center;
+}
+
+h4.div {
+  font-family: georgia;
+  font-size: 110%;
   color: #d10009;
   text-align: center;
 }
@@ -115,6 +122,17 @@ li a:hover:not(.active) {
 }
 
 #myDIV2 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid #d10009;
+}
+
+#myDIV3 {
     width: 100%;
     padding: 50px 0;
     text-align: center;
