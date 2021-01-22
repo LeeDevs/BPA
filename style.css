@@ -81,6 +81,11 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
+li a:focus:not(.active) {
+    background-color: #555;
+    color:white;
+}
     
 
 .button {
