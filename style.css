@@ -1,17 +1,17 @@
-body {
+    body {
     background-color: #ffffff;
 }
 
 p.div {
   font-family: georgia;
   font-size: 100%;
-  color: white;
+  color: #d10009;
 }
 
 h3.div {
   font-family: georgia;
   font-size: 150%;
-  color: white;
+  color: #d10009;
   text-align: center;
 }
 
@@ -90,6 +90,12 @@ li a:hover:not(.active) {
     background-color: #d10009;
     color: white;
 }
+
+.button:focus {
+    background-color: #d10009;
+    color: white;
+    outline: none;
+}
     
 .normal {
     margin-left: 25%;
@@ -101,20 +107,22 @@ li a:hover:not(.active) {
     width: 100%;
     padding: 50px 0;
     text-align: center;
-    background-color: #ff808a;
+    background-color: white;
     color: white;
     margin-top: 20px;
     border-radius: 12px;
+    border: 2px solid #d10009;
 }
 
 #myDIV2 {
     width: 100%;
     padding: 50px 0;
     text-align: center;
-    background-color: #ff808a;
+    background-color: white;
     color: white;
     margin-top: 20px;
     border-radius: 12px;
+    border: 2px solid #d10009;
 }
 
 a:link {
