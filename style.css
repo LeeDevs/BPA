@@ -112,7 +112,7 @@ li a:focus:not(.active) {
 .normal {
     margin-left: 25%;
     padding: 1px 16px;
-    height: 10000px;
+    height: 100%;
 }
        
 #myDIV {
@@ -167,9 +167,13 @@ a:hover {
 }
 
 .footer {
+   position: fixed;
+   right: 0;
+   left: 0;
+   bottom: 0;
    width: 100%;
    background-color: #ae0700;
    color: white;
    text-align: center;
-   height: 20%;
+   height: 10%;
 }
