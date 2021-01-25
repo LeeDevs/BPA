@@ -154,6 +154,11 @@ a:link {
 
 a:visited {
     color: #b30700;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #09007d;
 }
 
 .responsive {
