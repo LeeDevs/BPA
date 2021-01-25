@@ -113,6 +113,12 @@ li a:focus:not(.active) {
     margin-left: 25%;
     padding: 1px 16px;
     height: 80%;
+}
+
+.normalCenter {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 80%;
     text-align: center;
 }
        
