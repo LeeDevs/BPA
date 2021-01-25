@@ -1,4 +1,4 @@
-for the works cited, we need a seperate document with propperly formatted citations. The links page we have we should use for external links, where we have all the recorces linked in the website collected in one place to be convinent. 
+for the works cited, we need a seperate document with propperly formatted citations. The links page we have we should use for external links, where we have all the resorces linked in the website collected in one place to be convinent. 
 
 
 
