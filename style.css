@@ -181,3 +181,15 @@ a:hover {
    height: 20%;
    padding-left: 25%;
 }
+
+ol {
+    font-family: georgia;
+    font-size: 100%; 
+    color: #09007d;
+}
+
+ol.div {
+  font-family: georgia;
+  font-size: 100%;
+  color: #d10009;
+}
