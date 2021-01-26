@@ -6,7 +6,7 @@ for the works cited, we need a seperate document with propperly formatted citati
 
 
 -------------------------------------------------
-How all the code I (Lily) added works
+How all the code I added works
 
 The navigation bar works because of the style settings in style.css
 the settings for
