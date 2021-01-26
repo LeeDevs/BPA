@@ -153,12 +153,12 @@ li a:focus:not(.active) {
 }
     
 .normal {
-    padding: 1px 16px;
+    
     height: 80%;
 }
 
 .normalCenter {
-    padding: 1px 16px;
+    
     height: 80%;
     text-align: center;
 }
