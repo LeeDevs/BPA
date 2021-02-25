@@ -45,6 +45,11 @@ body {
     font-size: 36px;
     margin-left: 32px;
 }
+
+.sidemenu .current {
+    color: white;
+}
+
 p.div {
   font-family: georgia;
   font-size: 100%;
