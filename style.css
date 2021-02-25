@@ -48,6 +48,7 @@ body {
 
 .sidemenu .current {
     color: white;
+    text-decoration: underline;
 }
 
 p.div {
