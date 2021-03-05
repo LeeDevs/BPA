@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="app.js"></script>
 </head>
-<body>
+<body onload="mobileTest();">
   <div><button id="mainbox" class="button" onclick="openFunction()">&#9776; Open</button></div>
   <div id="menu" class="sidemenu">
-    <a href="index.html">Home</a>
-    <a href="ChapterGuidelines.html" class="current">Chapter Guidelines</a>
-    <a href="Hotels.html">Location</a>
-    <a href="worksCited.html">External Links</a>
+    <a href="index_Mobile.html">Home</a>
+    <a href="ChapterGuidelines_Mobile.html" class="current">Chapter Guidelines</a>
+    <a href="Hotels_Mobile.html">Location</a>
+    <a href="worksCited_Mobile.html">External Links</a>
   </div>
 
 
@@ -70,6 +70,16 @@
   <p style="font-family:Century Gothic;color:white;">Team Number : 435-S-0221 - Clay High School - Oregon, Ohio - 2021</p>
   <p style="font-family:Century Gothic;color:white;">Lilibeth Clark - Jamaal McLaughlin - Madison Campbell</p>
 </div>
+  
+    <script>
+    function mobileTest() {
+      var x = window.innerWidth;
+      var y = window.innerHeight;
+    if (x > y){
+    window.location.href = "https://lilyyy6.github.io/BPA/ChapterGuidelines.html";
+      }
+    }
+  </script>
 
 </body>
 </html>
