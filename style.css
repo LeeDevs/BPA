@@ -220,7 +220,7 @@ li a:focus:not(.active) {
 }
 
 .box {
-    width: 50%;
+    width: 100%;
     padding: 50px 0;
     text-align: left;
     background-color: white;
