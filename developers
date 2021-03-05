@@ -15,7 +15,8 @@
 	<div id="menu" class="sidemenu">
 				<a href="index.html">Home</a>
 				<a href="ChapterGuidelines.html">Chapter Guidelines</a>
-				<a href="Hotels.html" class="current">Location</a>
+				<a href="Hotels.html">Location</a>
+				<a href="developers.html" class="current">Developers</a>
 				<a href="worksCited.html">External Links</a>
 	</div>
   
@@ -47,6 +48,10 @@
 <h3 class="div">Madison Campbell</h3>
 <p class="div>[job]</p>
 </div>
+</div>
+<div class="footer">
+	<p style="font-family:Century Gothic;color:white;">Team Number : 58-0021 - Clay High School - Oregon Ohio - 2021</p>
+	<p style="font-family:Century Gothic;color:white;">Lilibeth Clark - Jaamal McLaughlin - Madison Campbell</p>
 </div>
 </body>
 </html>
