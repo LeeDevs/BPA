@@ -145,6 +145,14 @@ li a:focus:not(.active) {
     color:white;
 }
     
+.buttonDiv { 
+    border: 2px solid #d10009;
+    padding: 15px 32px;
+    background-color: white;
+    text-align: center;
+    font-family: georgia;
+    border-radius: 12px;
+}
 
 .button {
     transition-duration: 0.4s;
