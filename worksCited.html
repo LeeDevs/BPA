@@ -7,7 +7,7 @@
   <script src="app.js"></script>
 </head>
 
-<body>
+<body onload="mobileTest();">
 	<div><button id="mainbox" class="button" onclick="openFunction()">&#9776; Open</button></div>
   <div id="menu" class="sidemenu">
     <a href="index.html">Home</a>
@@ -148,5 +148,14 @@
 </div>
 
 </body> 
+	  <script>
+    function mobileTest() {
+      var x = window.innerWidth;
+      var y = window.innerHeight;
+    if (x < y){
+    window.location.href = "https://lilyyy6.github.io/BPA/worksCited_Mobile.html";
+      }
+    }
+  </script>
 
 </html> 
