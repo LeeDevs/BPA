@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Location</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</head>
+
+<body onload="myFunction2(); myFunction3();">
+	<div>
+	<button id="mainbox" class="button" onclick="openFunction()">&#9776; Open</button>
+	</div>
+	<div id="menu" class="sidemenu">
+				<a href="index.html">Home</a>
+				<a href="ChapterGuidelines.html">Chapter Guidelines</a>
+				<a href="Hotels.html" class="current">Location</a>
+				<a href="worksCited.html">External Links</a>
+	</div>
+  
+<div class="normal">
+
+<h1>About the Developers</h1>
+
+<div class="box">
+<h3 class="div">Lilibeth Clark</h3>
+<p class="div>[job]</p>
+</div>
+
+<div class="box">
+<h3 class="div">Aiden Young</h3>
+<p class="div>[job]</p>
+</div>
+
+<div class="box">
+<h3 class="div">Dominic Ruswinkle</h3>
+<p class="div>[job]</p>
+</div>
+
+<div class="box">
+<h3 class="div">Jaamal McLaughlin</h3>
+<p class="div>[job]</p>
+</div>
+
+<div class="box">
+<h3 class="div">Madison Campbell</h3>
+<p class="div>[job]</p>
+</div>
+</div>
+</body>
+</html>
